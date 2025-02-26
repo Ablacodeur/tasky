@@ -31,13 +31,9 @@ export default function Browser() {
         <Stack  sx={{
                 display: "flex",
                 flexDirection: "column",
-                // flexWrap: "wrap",
+                justifyContent:'center',
                 gap: 2,
                 padding: 2,
-                height:'100%',
-                // height: "80vh", // Prend toute la hauteur de l'écran
-                // overflowY: "auto", // Permet le scroll si besoin
-                alignContent: "center", // Centre les cartes quand elles passent en row
             }}>
         <ModalCard />       
         </Stack>
